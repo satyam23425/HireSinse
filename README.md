@@ -1,16 +1,35 @@
-# React + Vite
+# HireSinse 🚀
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+HireSinse is a modern web application built with **React** and **Vite**, designed to deliver a fast, scalable, and seamless user experience. The project leverages Vite’s lightning-fast development environment along with React’s component-based architecture for efficient frontend development.
 
-Currently, two official plugins are available:
+## ✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- ⚡ Fast development with Vite
+- 🔥 Hot Module Replacement (HMR)
+- 🧩 Reusable React components
+- 📱 Responsive and modern UI
+- 🛠️ ESLint configuration for clean and maintainable code
+- 🚀 Optimized production build setup
 
-## React Compiler
+## 🛠️ Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Frontend:** React.js
+- **Build Tool:** Vite
+- **Styling:** CSS / Tailwind CSS (if used)
+- **Linting:** ESLint
+- **Package Manager:** npm
 
-## Expanding the ESLint configuration
+## 📂 Project Structure
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```bash
+HireSinse/
+│── public/
+│── src/
+│   ├── components/
+│   ├── pages/
+│   ├── assets/
+│   ├── App.jsx
+│   └── main.jsx
+│── package.json
+│── vite.config.js
+└── README.md
